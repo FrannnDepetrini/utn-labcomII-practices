@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    
+        <nav style="font-family: Arial, Helvetica, sans-serif; padding-bottom: 5px;">Informacion de usuario</nav>
+
+        <div style="border: 1px; border-color: black; border-style:double ; padding: 10px; width: 400px; align-content: center; justify-content: center; margin-bottom: 10px;">
+            <form action="baseDeDatos.php" method="post" target="_self">
+                <label for="Name">Nombre</label>
+                <input required placeholder="Nombre" type="text" name="Nombre" />
+
+                <hr>
+
+                <label for="Years">Edad</label>
+                <input  required placeholder="Edad" type="text" name="Edad" />
+
+                <hr>
+
+                <label for="UserName">Nombre de usuario</label>
+                <input  required placeholder="Nombre de usuario" type="text" name="Nombre de usuario" />
+
+                <hr>
+
+                <label for="Password">Contraseña</label>
+                <input  required placeholder="Contraseña" type="text" name="Contraseña" />
+
+
+           
+        </div>
+
+        <div style="border: 1px; border-color: black; border-style:double ; padding: 10px; width: 400px; align-content: center; justify-content: center; margin-bottom: 10px; ">
+            
+
+                <label for="Legajo">Legajo</label>
+                <input required placeholder="Legajo" type="text" name="Legajo" />
+
+                <hr>
+
+                <label for="Subject">Materia</label>
+                <input required placeholder="Contraseña" type="text" name="Materia" />
+
+                <hr>
+
+                <select required name="Turno" id="">
+                    <option value="1">Mañana</option>
+                    <option value="2">Tarde</option>
+                    <option value="3">Noche</option>
+
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        
+</body>
+</html>
