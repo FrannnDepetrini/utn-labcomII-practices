@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+</head>
+<body>
+    <h1>Informacion personal del usuario</h1>
+
+    <form action="" method="post" target="_self">
+        <fieldset>
+            <legend>Informacion personal</legend>
+        <label>Rol</label>
+        <input readonly value="ESTUDIANTE">
+
+        <hr>
+
+        <label for="NombreCompleto">Nombre completo</label>
+        <input placeholder="Nombre completo" required name="NombreCompleto" type="text">
+
+        <hr>
+
+        <label for="Email">Email</label>
+        <input placeholder="Email" required name="Email" type="text">
+
+        <hr>
+
+        <label for="Edad">Edad</label>
+        <input placeholder="Edad" required name="Edad" type="number">
+
+        <hr>
+
+        <label for="Nacion">Nacionalidad</label>
+        <select name="Nacion" required>
+            <option>Argentina</option>
+            <option>Alemania</option>
+            <option>Otros</option>
+        </select>
+
+        <hr>
+
+        <label for="Condicion">Condicion Laboral</label>
+        <select name="Condicion" required>
+            <option selected disabled>Tu condicion</option>
+            <option >Desempleado</option>
+            <option>En busqueda laboral</option>
+            <option>Trabajo Part time</option>
+            <option>Trabajo Full time</option>
+        </select>
+        
+    </fieldset>
+    <fieldset>
+        <legend>Gustos personales</legend>
+
+        <label for="Musica">Gustos musicales</label>
+        <input required placeholder="Gustos musicales" type="text" name="Musica">
+
+        <label for="Comida">Comidad preferidas</label>
+        <select name="Comida" required  >
+            <option selected disabled>Tu comida favorita</option>
+            <option>Fideos</option>
+            <option>Sopa</option>
+            <option >Otros</option>
+        </select>
+
+
+    </fieldset>
+    <br>
+    <input name="button" type="submit" value="Inicio de sesion"/>
+    <br>
+    <label>Recordar datos de usuario</label>
+    <input type="checkbox">
+
+    </form>
+
+    
+</body>
+</html>
