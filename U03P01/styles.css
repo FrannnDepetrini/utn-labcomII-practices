@@ -1,0 +1,53 @@
+* {
+    font-family: sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+h1 {
+    font-size: 24px;
+    color: #242424;
+    width: 900px;
+}
+h2 {
+    font-size: 20px;
+    color:  #606060 ;
+    width: 800px;
+}
+p {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ul {
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid blue;
+    max-width: 40%;
+}
+
+ul li {
+    list-style: none;
+    font-family: monospace;
+    font-size: 18px;
+    padding: 10px;
+
+}
+ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+a {
+    font-weight: bold;
+}
+
+ul li a {
+    color: orange;
+    text-decoration: underline;
+}
+
+.clase1 a {
+    color: lawngreen;
+}
+.clase1 {
+    color: lawngreen;
+}
